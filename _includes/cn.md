@@ -17,12 +17,12 @@
 图像传感器
 -------------
 
-该系统使用订制的 CIS （contact image sensor，接触式图像传感器）模组。该 CIS 模组包括红\绿\蓝\红外四色 LED 光源、微型镜头阵列、和 CMOS 线扫描图像传感器。成像距离在 4-7 毫米。分辨率为 50\100\200 dpi 可选。三路分段并行输出。
+该系统使用订制的 CIS （contact image sensor，接触式图像传感器）模组。该 CIS 模组包括红/绿/蓝/红外四色 LED 光源、微型镜头阵列、和 CMOS 线扫描图像传感器。成像距离在 4-7 毫米。分辨率为 50/100/200 dpi 可选。三路分段并行输出。
 
 演示系统
 -------------
 
-该系统仅完成机械验证，下一步是图像采集和特征提取。
+该演示系统仅完成了机械验证，下一步是图像采集和特征分析。
 
 ![把手识别系统演示系统](/images/fig_handle_demo.png)
 
@@ -31,7 +31,7 @@
 同步运动单元
 -------------
 
-运动同步包括两部分，一部分是齿轮间的同步，精确控制滚轴与把手整体的运动。当把手外表面旋转移动距离 2\pi{}D 时，滚轴外表面反向位移同样距离，保证握住把手的手绝对位置不变。另一部分是把位移转换成 CIS 模组的图像采集控制脉冲，来调整采集到图像的长度方向的分辨率。该脉冲与移动位移固定比例，与 CIS 宽度方向分辨率要适应。既当 CIS 模组配置为 100 dpi 时，位移脉冲分辨率也要设定为 100 dpi。该设计参考线扫描掌纹识别系统 (X. Qu, D. Zhang, and G. Lu, “A novel line scan palmprint acquisition system,” *To appear in Systems, Man, and Cybernetics: Systems, IEEE Transactions on*.)。
+运动同步包括两部分，一部分是齿轮间的同步，精确控制滚轴与把手整体的运动。当把手外表面旋转移动距离 2\pi{}D 时，滚轴外表面反向位移同样距离，保证握住把手的手绝对位置不变。另一部分是把位移转换成 CIS 模组的图像采集控制脉冲，来调整采集到图像的长度方向的分辨率。该脉冲与移动位移固定比例，与 CIS 宽度方向分辨率要适应。既当 CIS 模组配置为 100 dpi 时，位移脉冲分辨率也要设定为 100 dpi。该设计参考线扫描掌纹识别系统 (X. Qu, D. Zhang, and G. Lu, “A novel line scan palmprint acquisition system,” *Will appear in Systems, Man, and Cybernetics: Systems, IEEE Transactions on*.)。
 
 图像与特征分析
 -------------
@@ -40,7 +40,7 @@
 
 在特征方面，100 dpi 能够提取主线；150 dpi 能够提取褶皱线；500 dpi 能够提取纹线；1200 dpi 能够提取汗孔。但参考低分辨率掌纹（< 150 dpi）的识别率，基本上 200 dpi 就可以提供一定的性能保证。如果处理速度够快，尝试 1200 dpi 也不是不可以。但要考虑人手图像挤压与形变的不稳定性，不要滥用高分辨率，却反而提取到一些不稳定的特征。
 
-其实最主要的，反而是一个稳定的 ROI（感兴趣区域）提取方法，这个更决定整体系统的稳定性。如果能够提取到稳定的区域，识别率应该至少可以达到与相近原理的系统类似(X. Qu, D. Zhang, G. Lu, and Z. Guo, “Door knob hand recognition system,” *To appear in Systems, Man, and Cybernetics: Systems, IEEE Transactions on*.)。
+其实最主要的，反而是一个稳定的 ROI（感兴趣区域）提取方法，这个更决定整体系统的稳定性。如果能够提取到稳定的区域，识别率应该至少可以达到与相近原理的系统类似 (X. Qu, D. Zhang, G. Lu, and Z. Guo, “Door knob hand recognition system,” *Will appear in Systems, Man, and Cybernetics: Systems, IEEE Transactions on*.)。
 
 应用
 -------------
