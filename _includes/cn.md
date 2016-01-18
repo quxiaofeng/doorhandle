@@ -40,6 +40,8 @@
 
 在特征方面，100 dpi 能够提取主线；150 dpi 能够提取褶皱线；500 dpi 能够提取纹线；1200 dpi 能够提取汗孔。但参考低分辨率掌纹（< 150 dpi）的识别率，基本上 200 dpi 就可以提供一定的性能保证。如果处理速度够快，尝试 1200 dpi 也不是不可以。但要考虑人手图像挤压与形变的不稳定性，不要滥用高分辨率，却反而提取到一些不稳定的特征。
 
+其实最主要的，反而是一个稳定的 ROI（感兴趣区域）提取方法，这个更决定整体系统的稳定性。如果能够提取到稳定的区域，识别率应该至少可以达到与相近原理的系统类似(X. Qu, D. Zhang, G. Lu, and Z. Guo, “Door knob hand recognition system,” *To appear in Systems, Man, and Cybernetics: Systems, IEEE Transactions on*.)。
+
 应用
 -------------
 
