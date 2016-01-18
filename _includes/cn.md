@@ -31,7 +31,7 @@
 同步运动单元
 -------------
 
-运动同步包括两部分，一部分是齿轮间的同步，精确控制滚轴与把手整体的运动。当把手外表面旋转移动距离 2\pi{}D 时，滚轴外表面反向位移同样距离，保证握住把手的手绝对位置不变。另一部分是把位移转换成 CIS 模组的图像采集控制脉冲，来调整采集到图像的长度方向的分辨率。该脉冲与移动位移固定比例，与 CIS 宽度方向分辨率要适应。当 CIS 模组配置为 100 dpi 时，位移脉冲分辨率也要设定为 100 dpi。该设计参考线扫描掌纹识别系统 (X. Qu, D. Zhang, and G. Lu, “A novel line scan palmprint acquisition system,” *To appear in Systems, Man, and Cybernetics: Systems, IEEE Transactions on*.)。
+运动同步包括两部分，一部分是齿轮间的同步，精确控制滚轴与把手整体的运动。当把手外表面旋转移动距离 2\pi{}D 时，滚轴外表面反向位移同样距离，保证握住把手的手绝对位置不变。另一部分是把位移转换成 CIS 模组的图像采集控制脉冲，来调整采集到图像的长度方向的分辨率。该脉冲与移动位移固定比例，与 CIS 宽度方向分辨率要适应。既当 CIS 模组配置为 100 dpi 时，位移脉冲分辨率也要设定为 100 dpi。该设计参考线扫描掌纹识别系统 (X. Qu, D. Zhang, and G. Lu, “A novel line scan palmprint acquisition system,” *To appear in Systems, Man, and Cybernetics: Systems, IEEE Transactions on*.)。
 
 应用
 -------------
