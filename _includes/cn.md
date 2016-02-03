@@ -7,6 +7,17 @@
 
 该系统主要设计目的为供重型机械操作者使用，满足连续的不间断的生物特征识别安全保证需求，提供一种满足人体工程学的不打断工作进程的生物特征识别技术。
 
+背景
+-------------
+
+持续生物特征识别（continuous biometrics），是一种连续的，不间断的生物特征识别技术。该技术是为了保证在场景持续过程中，用户的身份可以确保没有被调换、伪造、代替、中断。常见的持续生物特征识别，可以使用指纹识别、人脸识别、按键行为识别、鼠标行为识别和触摸屏行为识别。常见问题，一：需要配备额外的生物特征识别传感器，容易打断工作进程，例如：基于心电图的持续生物特征识别技术 [ContinUse Biometrics](http://finder.startupnationcentral.org/c/continuse)。二：按键识别、鼠标识别、触屏识别等行为识别，识别能力较差。
+
+美国国防部 2012 年开始以主动认证（[active authentication](http://www.darpa.mil/program/active-authentication)）为名针对持续生物特征识别展开相关研究 [[报道](https://gcn.com/articles/2012/03/21/darpa-dump-passwords-continuous-biometrics.aspx)，[2013 年的报告](https://www.rsaconference.com/writable/presentations/file_upload/sec-t05_final.pdf)]。
+
+人体工学的生物特征设计模型（ergonomics biometrics design model, EBD model），是一种充分考虑人体工学因素的生物特征识别设计模型 [[文献][TSMC-LPS]]。该模型受人-生物识别系统交互模型（human - biometric sensor interaction model）启发，将人体工学因素与生物特征识别系统的基本设计相结合。为新生物特征识别的设计提供指导。
+
+根据 continuous biometrics 的需求，针对重型机械操作这一场景，根据 EBD model，提出把手识别系统——人体工学的高精度手上持续生物特征识别。
+
 原理
 -------------
 
