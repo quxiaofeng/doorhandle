@@ -14,7 +14,7 @@
 
 美国国防部 2012 年开始以主动认证（[active authentication](http://www.darpa.mil/program/active-authentication)）为名针对持续生物特征识别展开相关研究 [[报道](https://gcn.com/articles/2012/03/21/darpa-dump-passwords-continuous-biometrics.aspx)，[2013 年的报告](https://www.rsaconference.com/writable/presentations/file_upload/sec-t05_final.pdf)]。
 
-人体工学的生物特征设计模型（ergonomics biometrics design model, EBD model），是一种充分考虑人体工学因素的生物特征识别设计模型（Qu, X.; Zhang, D.; Lu, G.; and Guo, Z., "Door knob hand recognition system," *Will appear in Systems, Man, and Cybernetics: Systems, IEEE Transactions on*.）。该模型受人-生物识别系统交互模型（human - biometric sensor interaction model）启发，将人体工学因素与生物特征识别系统的基本设计相结合。为新生物特征识别的设计提供指导。
+人体工学的生物特征设计模型（ergonomics biometrics design model, EBD model），是一种充分考虑人体工学因素的生物特征识别设计模型（Qu, X.; Zhang, D.; Lu, G.; and Guo, Z., "Door knob hand recognition system," *Will appear in Systems, Man, and Cybernetics: Systems, IEEE Transactions on*.）。该模型受人-生物特征识别传感器交互模型（human - biometric sensor interaction model, HBSI model）启发，将人体工学因素与生物特征识别系统的基本设计相结合。为新生物特征识别的设计提供指导。
 
 根据 continuous biometrics 的需求，针对重型机械操作这一场景，根据 EBD model，提出把手识别系统——人体工学的高精度手上持续生物特征识别。
 
