@@ -1,7 +1,9 @@
 把手识别系统
 ======================
 
-[English version (英文版)](/)
+[English](/) \\( \\qquad \\) [**中文**](/cn/)
+
+![](http://images.freeimages.com/images/previews/7d5/under-construction-icon-1242121.jpg)
 
 ## 简介 ##
 
@@ -62,4 +64,4 @@
 -------------
 
 
-[TSMC-LPS]: http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7390297&isnumber=6376248
+[TSMC-LPS]: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=7390297
