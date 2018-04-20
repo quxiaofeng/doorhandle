@@ -1,7 +1,7 @@
 把手识别系统
 ======================
 
-[English](/) \\( \\qquad \\) [**中文**](/cn/)
+[English]({{ site.baseurl }}/) \\( \\qquad \\) [**中文**]({{ site.baseurl }}/cn/)
 
 ![](http://images.freeimages.com/images/previews/7d5/under-construction-icon-1242121.jpg)
 
@@ -25,7 +25,7 @@
 
 该识别系统的主要结构是一个通过齿轮组同步的多滚轴旋转系统。该滚轴系统在外层顺时针（或逆时针）旋转的同时保持把手的其它部分稳定。这样，握着把手的手掌可以保持稳定。同时，线扫描模组在手掌内侧旋转一周采集手掌内侧图像。
 
-![把手识别系统原理](/images/fig_handle_scheme.png)
+![把手识别系统原理]({{ site.baseurl }}/images/fig_handle_scheme.png)
 
 图像传感器
 -------------
@@ -37,7 +37,7 @@
 
 该演示系统仅完成了机械验证，下一步是图像采集和特征分析。
 
-![把手识别系统演示系统](/images/fig_handle_demo.png)
+![把手识别系统演示系统]({{ site.baseurl }}/images/fig_handle_demo.png)
 
 采集到的图像应该是持握圆柱的完整的握姿人手图像。当前分辨率最高为 200 dpi，可以采集到主线和褶皱线，还不够指纹识别所需的 500 dpi (minutiae)，更不够 1200 dpi 的汗孔(pore)。一方面可以尝试类似掌纹识别的方法；另一方面，可以通过订制更高分辨率的传感器改进图像质量。
 
