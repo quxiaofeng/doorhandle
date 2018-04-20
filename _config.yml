@@ -1,6 +1,6 @@
 pygments: true
 
-baseurl: doorhandle
+baseurl: /doorhandle
 
 title_tag_text: "Door Handle, a highly customized continuous biometrics"
 h1_tag_text: "Door Handle Biometrics"
